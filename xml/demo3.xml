@@ -1,0 +1,7 @@
+<root>
+	<elem>
+		<child1 foo="bar">some text</child1>
+		<child2 />
+	</elem>
+	<elem_b />
+</root>

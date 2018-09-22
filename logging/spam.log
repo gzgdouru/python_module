@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+2017-12-01 15:56:41,292 - simple_exemle - DEBUG - debug message
+2017-12-01 15:56:41,292 - simple_exemle - INFO - info message
+2017-12-01 15:56:41,292 - simple_exemle - WARNING - warn message
+2017-12-01 15:56:41,292 - simple_exemle - ERROR - error message
+2017-12-01 15:56:41,292 - simple_exemle - CRITICAL - critical message
+[2017-12-01 16:06:14,808] [simple_exemle] [DEBUG] : debug message
+[2017-12-01 16:06:14,808] [simple_exemle] [INFO] : info message
+[2017-12-01 16:06:14,808] [simple_exemle] [WARNING] : warn message
+[2017-12-01 16:06:14,808] [simple_exemle] [ERROR] : error message
+[2017-12-01 16:06:14,808] [simple_exemle] [CRITICAL] : critical message
+[2017-12-01 16:36:44,266] [simple_exemle] [DEBUG] : debug message
+[2017-12-01 16:36:44,266] [simple_exemle] [INFO] : info message
+[2017-12-01 16:36:44,266] [simple_exemle] [WARNING] : warn message
+[2017-12-01 16:36:44,266] [simple_exemle] [ERROR] : error message
+[2017-12-01 16:36:44,266] [simple_exemle] [CRITICAL] : critical message
+=======
+2017-12-01 15:56:41,292 - simple_exemle - DEBUG - debug message
+2017-12-01 15:56:41,292 - simple_exemle - INFO - info message
+2017-12-01 15:56:41,292 - simple_exemle - WARNING - warn message
+2017-12-01 15:56:41,292 - simple_exemle - ERROR - error message
+2017-12-01 15:56:41,292 - simple_exemle - CRITICAL - critical message
+[2017-12-01 16:06:14,808] [simple_exemle] [DEBUG] : debug message
+[2017-12-01 16:06:14,808] [simple_exemle] [INFO] : info message
+[2017-12-01 16:06:14,808] [simple_exemle] [WARNING] : warn message
+[2017-12-01 16:06:14,808] [simple_exemle] [ERROR] : error message
+[2017-12-01 16:06:14,808] [simple_exemle] [CRITICAL] : critical message
+[2017-12-01 16:36:44,266] [simple_exemle] [DEBUG] : debug message
+[2017-12-01 16:36:44,266] [simple_exemle] [INFO] : info message
+[2017-12-01 16:36:44,266] [simple_exemle] [WARNING] : warn message
+[2017-12-01 16:36:44,266] [simple_exemle] [ERROR] : error message
+[2017-12-01 16:36:44,266] [simple_exemle] [CRITICAL] : critical message
+>>>>>>> 31b751da9cab8c64478d0c061b88c453fb75d14a
+[2018-05-30 16:46:32,358] [simple_exemle] [DEBUG] : debug message
+[2018-05-30 16:46:32,378] [simple_exemle] [INFO] : info message
+[2018-05-30 16:46:32,379] [simple_exemle] [WARNING] : warn message
+[2018-05-30 16:46:32,379] [simple_exemle] [ERROR] : error message
+[2018-05-30 16:46:32,379] [simple_exemle] [CRITICAL] : critical message

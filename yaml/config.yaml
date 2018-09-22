@@ -1,0 +1,19 @@
+languages:
+  - Ruby
+  - Perl
+  - Python
+
+websites:
+  YAML: yaml.org
+  Ruby: ruby-lang.org
+  Python: python.org
+  Perl: user.perl.org
+
+
+db:
+  host: xxx
+  port: 3306
+  user: weibospider
+  password: xxx
+  db_name: weibo
+  db_type: mysql

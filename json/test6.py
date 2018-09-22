@@ -1,0 +1,11 @@
+from xml.etree.ElementTree import ElementTree
+import xml.etree.ElementTree as ET
+
+text = '''
+    <OBJECT TYPE="AddAlarm" ID="" USER_EMS_NAME="华为一干波分网管" DEV_TYPE="821" TN_DOMAIN_ID="1030005" NOTICE_TYPE="1" ALARM_TYPE="1" OBJ_TYPE="607" OBJ_ID="8D3B31D2E5229A5EAC036E61227CB067" OBJ_NAME="/Ems=华为一干波分网管/Ne=8825-湛江霞海-广州较场西方向/Shelf=3/Board=16/Port=1"  NE_ALARM_TIME="" EMS_ALARM_TIME="" COLLECT_TIME="" SYSTEM_TIME="" ALARM_LEVEL="1" PROB_CAUSE="R_LOS" EMS_DETAIL_CAUSE="" DETAIL_CAUSE="广西test" ADD_INFO="pqing波分系统故障诊断" CONFIRMER="" CONFIRM_TIME="" CONFIRM_FLAG="0" COMPRESS_COUNT="0" DATA_SRC="" REMARK="" EMS_ALARM_SN="" COLLECTOR_NAME="" TIMESLOT="" ASPECT_MANAGE_TYPE="0" ASPECT_MANAGE_SUBTYPE="0" EXT_C="" CIRCUIT_BANDWIDTH="0" MASK_FLAG="0" ADD_TEXT="" REPAIR_ACTIONS="" ALARM_UNIQUE="" CALL_TYPE="" RETRYE="" INIT_ALARM_LEVEL="1" RULE_ID="" VOLTAGE_VALUE="100"  VD_ALARM_ID="10000" S_BOARD_INFO="OTU4S"/>
+'''
+
+tree = ElementTree(file="text.xml")
+root = tree.getroot()
+for key in root.attrib:
+    print(key, root.attrib[key])
